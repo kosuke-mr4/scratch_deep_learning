@@ -69,7 +69,7 @@ class Affine:
 
 class SoftmaxWithLoss:
     def __init__(self):
-        self.loss = None
+        self.loss = None  # 損失
         self.y = None  # softmaxの出力
         self.t = None  # 教師データ
 
